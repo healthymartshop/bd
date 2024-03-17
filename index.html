@@ -34,7 +34,7 @@
   .modal-content {
     background-color: #fefefe;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
@@ -528,7 +528,7 @@ header {
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
+      height: 0%;
       background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
       display: none;
       z-index: 2; /* Set overlay z-index higher than header */
@@ -868,12 +868,6 @@ header {
   transition: transform 0.3s ease-in-out;
 }
 
-.subtitle {
-  font-size: 14px;
-  color: gray;
-  text-align: center;
-}
-    
 .cash-delivery-item .icon {
   font-size: 46px;
   margin-right: 20px;
@@ -898,6 +892,8 @@ header {
   color: white; /* Set the text color to red */
 }
 
+  
+
 
 footer {
   border-radius:30px;
@@ -914,16 +910,25 @@ footer {
   align-items: center;
 }
 
-
+.subtitle {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
   
   </style>
 
 
-  <div class="cash-delivery-item" onclick="zoom()">
+
+
+
+
+
+<div class="cash-delivery-item" onclick="zoom()">
   <span class="icon"><i class="fas fa-home"></i></span>
   <span class="cash-delivery-label">Free Home Delivery</span>
   <span class="subtitle">ONLY ON BANGLADESH </span>
-  </div>
+</div>
   
   
   <div class="shipping-item">
