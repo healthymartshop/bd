@@ -1081,7 +1081,7 @@ function updateTotalPrice() {
     var grandTotal = totalProductPrice + 0.00; // Add shipping fee
 
     // Update total price
-    totalPriceSpan.textContent = 'SubTotal: ৳' + grandTotal.toFixed(2);
+    totalPriceSpan.textContent = 'Total: ৳' + grandTotal.toFixed(2);
 
     // Remove existing shipping fee text if it exists
     var shippingFeeText = document.querySelector('.shipping-fee');
