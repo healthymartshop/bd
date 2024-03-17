@@ -484,11 +484,14 @@ header {
     }
 
     .close-icon {
-      cursor: pointer;
-      font-size: 30px;
-      display: none;
-      z-index: 2; /* Set close icon z-index higher than header */
-    }
+  cursor: pointer;
+  font-size: 30px;
+  display: none;
+  position: relative; /* Add position relative */
+  left: 20px;
+  z-index: 2; /* Set close icon z-index higher than header */
+}
+
 
     .menu {
       position: fixed;
